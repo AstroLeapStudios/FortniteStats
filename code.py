@@ -8,8 +8,8 @@ import os
 
 api_key = '380463e95c4f1426977ac7bc1e6f431d4e728f43'
 
-os.system("title Flight Gaming Stats")
-cprint(figlet_format('Flight', font='big'),
+os.system("title Fortnite Stats")
+cprint(figlet_format('Stats', font='big'),
        'blue', attrs=['bold'])
 fn = fortnite_api.FortniteAPI()
 def stats(user):
